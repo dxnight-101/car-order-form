@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section>
+            <p class="zagolovok"></p>
+            <h1>Home work for CSS flexbox</h1>
+            <p class="zagolovok"></p>
+        </section>
+        <form>
+            <div class="content-form">
+                <fieldset>
+                    <legend>Personal info</legend>
+                        <div class="content">
+                            <label for="first-name">First Name</label>
+                            <input name="first-name" id="first-name" type="text" autofocus>
+                        </div>
+                        <div class="content">
+                            <label for="last-name">Last Name</label>
+                            <input name="last-name" id="last-name" type="text">
+                        </div>
+                        <div class="content">
+                            <label for="Birthday">Birthday</label>
+                            <input type="datetime-local" id="Birthday" name="Birthday">
+                        </div>
+                        <div class="content">
+                            <span>Gender</span>
+                            <div>
+                                <label for="Male">Male</label>
+                                <input type="radio" id="Male" value="Male" name="Gender" class="-radio">
+                            </div>
+                            <div>
+                                <label for="Female">Female</label>
+                                <input type="radio" id="Female" value="Female" name="Gender" class="-radio">
+                            </div>
+                        </div>
+                        <div class="content">
+                            <label for="Drive_experience">Drive experience</label>
+                            <select name="Drive_experience" id="Drive_experience">
+                                <option>---</option>
+                                <option>expert</option>
+                                <option>more than 10</option>
+                                <option>5-10</option>
+                                <option>2-5</option>
+                                <option>less than 2</option>
+                                <option>beginner</option>
+                            </select>
+                        </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Contacts</legend>
+                    <div class="content">
+                        <label for="Email">Email</label>
+                        <input type="email" placeholder="Введите свою почту" id="Email" name="Email">
+                    </div>
+                    <div class="content">
+                        <label for="phone">Phone</label>
+                        <input type="text" id="phone" placeholder="Введите номер телефона">
+                    </div>
+                    <div class="textarea-content">
+                        <label for="address">Адрес:</label>
+                        <textarea id="address" name="address"></textarea>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Car info</legend>
+                    <div class="content">
+                        <label for="Brand">Brand</label>
+                        <select name="Brand" id="Brand">
+                            <option>---</option>
+                            <option>Ford</option>
+                            <option>Toyota</option>
+                            <option>BMW</option>
+                        </select>
+                    </div>
+                    <div class="content">
+                        <label for="Model">Model</label>
+                        <select name="Model" id="Model">
+                            <option>---</option>
+                            <option>Mondeo 4</option>
+                            <option>Feista 1.0</option>
+                            <option>RAV 4</option>
+                            <option>Camry</option>
+                            <option>X5</option>
+                            <option>i4</option>
+                        </select>
+                    </div>
+                    <div class="checkbox-class">
+                        <label for="checkbox">Used</label>
+                        <input type="checkbox" id="checkbox" name="checkbox">
+                    </div>
+                    <div class="color-content">
+                        <label for="Red">Red</label>
+                        <input type="radio" id="Red" value="Red" name="Color" class="color">
+                        <label for="Black">Black</label>
+                        <input type="radio" id="Black" value="Black" name="Color" class="color">
+                        <label for="Blue">Blue</label>
+                        <input type="radio" id="Blue" value="Blue" name="Color" class="color">
+                        <label for="White">White</label>
+                        <input type="radio" id="White" value="White" name="Color" class="color">
+                        <label for="Grey">Grey</label>
+                        <input type="radio" id="Grey" value="Grey" name="Color" class="color">
+                    </div>
+                    <div id="price-label">
+                        <label for="price">Price</label>
+                        <input type="range" id="price" name="price" min="10" max="80" step="10" list="money">
+                        <datalist id="money">
+                            <option value="10" label="10"></option>
+                            <option value="20" label="20"></option>
+                            <option value="30" label="30"></option>
+                            <option value="40" label="40"></option>
+                            <option value="50" label="50"></option>
+                            <option value="60" label="60"></option>
+                            <option value="70" label="70"></option>
+                            <option value="80" label="80"></option>
+                        </datalist>
+                    </div>
+                </fieldset>
+            </div>
+            <div id="button">
+                <input type="reset" value="Cancel">
+                <input type="submit" value="OK">
+            </div>
+        </form>
+    </main>
+</body>
+</html>

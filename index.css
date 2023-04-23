@@ -1,0 +1,70 @@
+h1{
+    text-align: center;
+}
+.content-form{
+    display: flex;
+    justify-content: center;
+}
+:root{
+    font-size: 20px;
+}
+input[type='text'],
+input[type='datetime-local'],
+input[type='email'],
+input[type='range'],
+input[type="checkbox"]{
+    min-width: 60%;
+}
+select{
+    min-width: 50%;
+}
+fieldset{
+    min-width: 14%;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.textarea-content{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+datalist{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+option{
+    padding: 3.5px;
+}
+
+.color-content{
+    margin-top: 5px;
+}
+.checkbox-class{
+    margin-top: 5px;
+}
+#button{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+#button input[type="reset"],
+#button input[type="submit"] {
+  padding: 6px 10px; /* увеличить отступы вокруг текста */
+  margin: 5px;
+}
+#price-label{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 5px;
+}
